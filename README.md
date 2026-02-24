@@ -1,4 +1,11 @@
+[Portuguese](https://github.com/MelvinMod/modern-cupsem/blob/main/README_PORTUGUESE.md)
+[Spanish](https://github.com/MelvinMod/modern-cupsem/blob/main/README_SPANISH.md)
+[Romanian](https://github.com/MelvinMod/modern-cupsem/blob/main/README_ROMANIAN.md)
+[Italian](https://github.com/MelvinMod/modern-cupsem/blob/main/README_ITALIAN.md)
+[Russian](https://github.com/MelvinMod/modern-cupsem/blob/main/README_RUSSIAN.md)
+
 # modern-cupsem
+
 The Consortium for Upper Level Physics Software created the software program Electricity and Magnetism Simulations (CUPSEM), which was released in 1995 and uses interactive simulations to help users comprehend electricity and magnetism concepts. It contains a range of resources and tools for physics education. This application was decoded and manually rewritten in Ruby for modern Linux and Windows 10 by me, MelvinSGjr (known as MelvinMod (my second account, as the previous one does not have access to posts)). **Everything was rewritten manually in Ruby, without artificial intelligence, but artificial intelligence was used only to understand the original code from the decompiled application!!!**
 
 ### Core Gems Used
