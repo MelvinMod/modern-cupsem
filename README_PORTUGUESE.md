@@ -41,7 +41,7 @@ Após instalar o gnuplot, você pode:
 ```bash
 # Execute o setup primeiro
 ruby bin/setup.rb
-```
+
 
 # Execute o menu principal
 ruby -Ilib lib/cupsem/main.rb
@@ -51,7 +51,7 @@ ruby -Ilib lib/cupsem/main.rb --gauss
 
 # Mostrar ajuda
 ruby -Ilib lib/cupsem/main.rb --help
-
+```
 
 ## O que está funcionando:
 -  Funções matemáticas (pwr, sin, cos, tan, sinh, etc.) 
