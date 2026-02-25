@@ -50,6 +50,9 @@ ruby -Ilib lib/cupsem/main.rb --gauss
 ruby -Ilib lib/cupsem/main.rb --help
 ```
 
+### Что нужно для полной графики:
+Установите gnuplot, как показано выше, тогда функции построения в `graphics_gnuplot.rb` будут работать для визуального вывода!
+
 ## Что работает:
 -  Математические функции (pwr, sin, cos, tan, sinh и т.д.) 
 -  Операции с матрицами
