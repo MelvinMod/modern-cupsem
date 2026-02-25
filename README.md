@@ -19,8 +19,52 @@ The Consortium for Upper Level Physics Software created the software program Ele
 This is a work in progress. The original Pascal code has been analyzed
 and the Ruby port is being developed.
 
-## Building from Source
-See INSTALL.md for dependencies and build instructions.
+## How to install
+Get working Ruby programming language (and Chocolatey for Windows).
+
+**Current state**: The code runs in terminal/text mode (typing text only).
+**To get real graphics (like original CUPS)**: Install Gnuplot:
+```bash
+# On EndeavourOS (Arch Linux)
+sudo pacman -S gnuplot
+```
+```powershell
+# On Windows 10/11 (using Chocolatey)
+choco install gnuplot
+```
+
+After installing gnuplot, you can:
+
+- Plot 2D functions with curves
+- Plot 3D surfaces
+- Plot contour maps
+- Plot vector fields
+- Display charge distributions visually
+
+**How to run:**
+
+```bash
+# Run setup first
+ruby bin/setup.rb
+
+# Run the main menu
+ruby -Ilib lib/cupsem/main.rb
+
+# Run specific simulation
+ruby -Ilib lib/cupsem/main.rb --gauss
+
+# Show help
+ruby -Ilib lib/cupsem/main.rb --help
+```
+
+## What's working:
+-  Math functions (pwr, sin, cos, tan, sinh, etc.)
+-  Matrix operations
+- Expression parser
+- Numerical integration (Simpson, trapezoidal, Gaussian)
+- Root finding
+- Interpolation
+- Basic simulations (Fields, Gauss)
 
 ## License
 Original: (c) 1994 by John Wiley & Sons
