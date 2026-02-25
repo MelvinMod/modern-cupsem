@@ -57,6 +57,11 @@ ruby -Ilib lib/cupsem/main.rb --gauss
 ruby -Ilib lib/cupsem/main.rb --help
 ```
 
+## What's needed for full graphics:
+Install gnuplot as shown above, then the plotting functions in 
+`graphics_gnuplot.rb`
+ will work for visual output!
+
 ## What's working:
 -  Math functions (pwr, sin, cos, tan, sinh, etc.)
 -  Matrix operations
