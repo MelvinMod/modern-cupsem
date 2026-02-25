@@ -42,7 +42,6 @@ Após instalar o gnuplot, você pode:
 # Execute o setup primeiro
 ruby bin/setup.rb
 
-
 # Execute o menu principal
 ruby -Ilib lib/cupsem/main.rb
 
