@@ -25,9 +25,6 @@ sudo pacman -S gnuplot
 # Su Windows 10/11 (utilizzando Chocolatey)
 choco install gnuplot
 ```
-# Su Windows 10/11 (utilizzando Chocolatey)
-choco install gnuplot
-```
 
 Dopo aver installato gnuplot, puoi:
 
