@@ -51,7 +51,7 @@ ruby -Ilib lib/cupsem/main.rb --gauss
 
 # Mostrar ajuda
 ruby -Ilib lib/cupsem/main.rb --help
-```
+
 
 ## O que está funcionando:
 -  Funções matemáticas (pwr, sin, cos, tan, sinh, etc.) 
