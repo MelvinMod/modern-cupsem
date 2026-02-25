@@ -165,14 +165,19 @@ module CUPSem
       false
     end
     
+    def evaluate(expression, x: 0, y: 0, z: 0, r: 0)
+      parse('x', 'y', 'z', 'r', expression)
+      f(x, y, z, r)
+    end
+    
     def f(x = 0, y = 0, z = 0, r = 0)
       return 0 unless @expression
       @x = x
       @y = y
       @z = z
       @r = r
-      @rho = Math.sqrt(x*x + y*y)
-      @theta = Math.atan2(y, x)
+      @rho = ::Math.sqrt(x*x + y*y)
+      @theta = ::Math.atan2(y, x)
       @phi = @theta
       begin
         eval(@expression)
