@@ -25,9 +25,6 @@ sudo pacman -S gnuplot
 # На Windows 10/11 (используя Chocolatey)
 choco install gnuplot
 ```
-# На Windows 10/11 (используя Chocolatey)
-choco install gnuplot
-```
 
 После установки gnuplot вы можете:
 
@@ -37,7 +34,7 @@ choco install gnuplot
 - Построить векторные поля
 - Визуально отображать распределения зарядов
 
-**Как бегать:**
+**Как запустить:**
 
 ```bash
 # Сначала выполните настройку
