@@ -50,6 +50,9 @@ ruby -Ilib lib/cupsem/main.rb --gauss
 ruby -Ilib lib/cupsem/main.rb --help
 ```
 
+### Qué se necesita para gráficos completos:
+Instale gnuplot como se muestra arriba, entonces las funciones de trazado en `graphics_gnuplot.rb` ¡funcionarán para la salida visual!
+
 ## Lo que funciona:
 - Funciones matemáticas (pwr, sin, cos, tan, sinh, etc.) 
 - Operaciones matriciales
