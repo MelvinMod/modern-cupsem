@@ -50,6 +50,11 @@ ruby -Ilib lib/cupsem/main.rb --gauss
 ruby -Ilib lib/cupsem/main.rb --help
 ```
 
+### Ce este necesar pentru grafica completă:
+Instalați gnuplot așa cum este arătat mai sus, apoi funcțiile de graficare din 
+`graphics_gnuplot.rb`
+vor funcționa pentru ieșirea vizuală!
+
 ## Ce funcționează:
 - Funcții matematice (pwr, sin, cos, tan, sinh, etc.) 
 -  Operații cu matrice
